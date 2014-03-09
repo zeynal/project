@@ -1,6 +1,4 @@
-project
+SENED.AZ
 =======
 
-Project
-
-This is a project ReadME File
+This is a www.sened.az project
