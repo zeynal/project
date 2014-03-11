@@ -1,0 +1,172 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+.render{
+	background-color: #f0f5f9;
+	position: relative;
+	margin-top: 104px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	height: auto;
+	margin-bottom: 35px;
+}
+.grid_13{
+	width: 70%;
+	margin: auto;
+	color: rgba(25,113,176,.8);
+	font-size: 12px;
+    text-transform: uppercase;
+}
+
+.icon:before{
+	font-size: 15px;
+	height: 15px;
+	content:"\25b8";
+}
+.content{
+	width: 70%;
+	margin: auto;
+}
+.left{
+	width: 25%;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+.category{
+	width: 100%;
+	border-bottom: 1px solid #f0f5f9;
+	margin: 0px;
+	margin-bottom: 15px;
+	padding: 0px;
+}
+.category ul{
+	width: 80%;
+	margin: 0px;
+	margin-bottom: 12px;
+	padding: 0px;
+}
+.category ul li{
+	background-color: white;
+	color: #1971b0;
+    list-style-type: none;
+    text-decoration: none;
+    display: block;
+    padding: 7px 15px 7px 15px;
+    font-size: 100%;
+}
+.category ul li:hover{
+	background-color: #1971b0;
+	color: white;
+    list-style-type: none;
+    cursor: pointer;
+}
+.category ul li.special:hover,.category ul li.special{
+	color: white;
+	background-color: #98aab8;
+}
+.upcategry{
+	border-bottom: 1px solid #f0f5f9;
+	margin-bottom: 15px;
+    color: #39434c;
+    font-weight: bold;
+    font-size: 100%;
+}
+.upcategry ul{
+	padding: 0px;
+}
+.upcategry li{
+	font-size: 14px;
+	font-weight: normal;
+	background-color: white;
+	color: #39434c;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 5px 12px 5px 12px;
+    display: block;
+}
+.upcategry input{
+	-webkit-font-smoothing: antialiased;
+	display: none;
+}
+.upcategry li:hover{
+	background-color: #1971b0;
+	color: white;
+    list-style-type: none;
+    cursor: pointer;
+}
+.upcategry li:hover input{
+	margin: 0px;
+	cursor: pointer;
+	display: inline;
+}
+.categoryshow{
+	width: 100%;
+	border-bottom: 1px solid #f0f5f9;
+	margin: 0px;
+	margin-bottom: 15px;
+	padding: 0px;
+}
+.categoryshow ul li{
+	font-size: 14px;
+	color: #005580;
+}
+.categoryshow ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.hide{
+	display: none;
+}
+.right{
+	width: 75%;
+    float: right;
+}
+.rightheader{
+	background-color: red;
+	width: 100%;
+}
+.rightheader h1{
+	margin: 0px;
+	padding: 0px;
+	font-size: 26px;
+	line-height: 26px;
+	color: #39434c;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    float: left;
+    font-weight: normal;
+}
+.docstoc{
+	height: 60px;
+	float: right;
+}
+#right{
+    margin-right: 10px;
+}
+.docstoc ul{
+	display: none;
+    margin: 0px;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 12px;
+    color: #98aab8;
+    border: 1px solid #98aab8;
+}
+#right ul{
+	height: 30px;
+}
+.docstoc div{
+	height: 30px;
+    font-weight: bold;
+    font-size: 12px;
+    color: #98aab8;
+    border: 1px solid #98aab8;
+    text-align: center;
+}
+.docstoc div a{
+	padding-top: 5px;
+	color: #98aab8;
+	text-decoration: none;
+	padding: 5px 15px 0 15px;
+}
+.document{
+	clear: both;
+   }
