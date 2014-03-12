@@ -249,8 +249,8 @@ ul{
 				<h3>DOCUMENTS</h3>
 			</div>
 			<div class="doccontent">
-				<section class="docsection" style="border-bottom: 1px solid #e0e9f0">
-					<img src="mirta.jpg" />
+				<section class="docsection">
+					<img src="http://img.docstoccdn.com/thumb/206/167186444.png" />
 					<div class="docright">
 					    <a href="">Policy and Procedure Manual</a>	
 					    <p>Protect your company with this Policy and Procedure Manual. A Policy and Procedure Manual is a compilation of company policies, procedures and behavioral expectations that is provided by a company to employees. The manual can also include information about payroll, employee benefits and additional terms and conditions of employment. Moreover, a Policy and Procedure Manual will help protect a company from potential lawsuits that may arise in the form of harassment claims, wrongful termination claims and discrimination claims. This customizable document can be used by any small business to easily create a comprehensive and customizable manual.</p>	
@@ -258,13 +258,13 @@ ul{
 					    	<div class="certified">CERTIFIED</div>
 					    	<div class="doctype">DOC</div>
 					    	<div class="docview">view:144</div>
-					    	<div class="doccategory">categories: HUMAN RESOURCES EMPLOYMENT POLICIES AND </div>
+					    	<div class="doccategory">categories: <a href="#">HUMAN RESOURCES</a> <a href="#">EMPLOYMENT POLICIES AND </a></div>
 					    	<div class="docicon">+</div>
 					    </div>				
 					</div>
 				</section>
-				<section class="docsection" style="border-bottom: 1px solid #e0e9f0">
-					<img src="mirta.jpg" />
+				<section class="docsection">
+					<img src="http://img.docstoccdn.com/thumb/206/167181146.png" />
 					<div class="docright">
 					    <a href="">Work Absence Policy</a>	
 					    <p>This Work Absence Policy outlines a company’s guidelines on unexcused employee absences and excessive tardiness. It is vital to provide employees with such policy to ensure that there is a clear understanding between the parties as to what is expected from the employee. Customize the information of the company, the amount of time employees can be late, the number of consecutive unexcused absences that will result in termination, and more. This policy can be used by small businesses or other entities that want to provide users with a clear Work Absence Policy.</p>	
@@ -277,8 +277,8 @@ ul{
 					    </div>				
 					</div>
 				</section>
-				<section class="docsection" style="border-bottom: 1px solid #e0e9f0; color: #222">
-					<img src="mirta.jpg" />
+				<section class="docsection">
+					<img src="http://img.docstoccdn.com/thumb/206/167181107.png" />
 					<div class="docright">
 					    <a href="">Texting Policy</a>	
 					    <p>This Texting Policy can be used by a company to establish a uniform and consistent policy regarding texting on cell phones by employees. This policy prohibits employees’ texting and using their cell phone during work hours. In addition, this policy prohibits employees from texting and driving on a company provided phone or to conduct company business. This policy can be used by small businesses or other entities that want to maximize employee productivity and safety by establishing a Texting Policy.</p>	
