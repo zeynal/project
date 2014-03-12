@@ -169,4 +169,141 @@
 }
 .document{
 	clear: both;
+	width: 100%;
+	margin-top: 40px;
    }
+.docheader{
+	border-bottom: 1px solid #cedae3;
+    text-transform: uppercase;
+}
+.docheader h3{
+	margin: 5px 0px;
+	width: 14%;
+	padding-left: 15px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-weight: normal;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #f2f3f4;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+}
+.doccontent{
+	clear: both;
+	margin: 0px;
+	overflow: hidden;
+	margin-bottom: 40px;
+}
+.docsection{
+	width: 100%;
+	clear: both;
+	overflow: hidden;
+	border-bottom: 1px solid #e0e9f0;
+}
+.docsection:hover{
+	background-color: #f0f5f9;
+}
+.docsection img{
+	float: left;
+	margin-top: 15px;
+	margin-left: 10px;
+	border: 1px solid #e0e9f0;
+    width: 80px;
+    height: 100px;
+    display: block;
+    left: 15px;
+    top: 15px;
+    background-color: #fff;
+}
+.docright{
+	width: 85.6%;
+	margin-top: 15px;
+	float: right;
+}
+.docsection a{
+	color: #222;
+	text-decoration: none;
+	font-size: 120%;
+    box-sizing: content-box;
+}
+.docsection:hover a{
+	color: #1971b0;
+}
+.docsection a:hover{
+	text-decoration: underline;
+}
+.docright p{
+	font-family: 'Lato',sans-serif;
+	margin: 0px;
+	padding-right: 15px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+    color: #6c7780;
+    overflow: hidden;
+    height: 30px
+}
+.doccategory a{
+	font-size: 11px;
+	font-weight: bold;
+	color: #6c7780;
+	line-height: 20px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+.costumedocument{
+	clear: both;
+	width: 100%;
+	margin-top: 40px;
+   }
+.costumeheader{
+	border-bottom: 1px solid #cedae3;
+    text-transform: uppercase;
+}
+.costumeheader h3{
+	margin: 5px 0px;
+	width: 22%;
+	padding-left: 15px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-weight: normal;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #f2f3f4;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+}
+.costumecontent{
+	clear: both;
+	margin: 0px;
+	margin-top: 25px;
+	overflow: hidden;
+}
+/*bura yaz*/
+.costumesection{
+	clear: both;
+	display: inline-block;
+	overflow: hidden;
+}
+.costumesection img{
+	width: 208px;
+	height: auto;
+}
+.cossecheader{
+font-weight: bold;
+font-size: 11px;
+padding: 0 15px;
+margin: 0px;
+width: 60%;
+}
+.cossecheader h4{
+	padding: 0 7px;
+	color: white;
+	line-height: 20px;
+	margin: 0px;
+	background-color: #667c86;
+}
+.cossecheader h4:hover{
+	background-color: #1971b0;
+}
