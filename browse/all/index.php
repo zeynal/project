@@ -9,7 +9,7 @@
   <meta name="author" content="SitePoint">
   <script src="js/scripts.js"></script>
   <link rel="stylesheet" href="css/styles.css?v=1.0">
-  <link rel="stylesheet" href="../css/docs_all.css" type="text/css">
+  <link rel="stylesheet" href="shotrell.css" type="text/css">
 
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -160,13 +160,13 @@ ul{
 	<div class="left">
 		<aside class="category">
 		    <ul>
-			    <li class="special"><a href"#">All Content </a></li>
-			    <li><a href"#">Documents</a></li>
-			    <li><a href"#">Custom Documents</a></li>
-			    <li><a href"#">Packages</a></li>
-			    <li><a href"#">Courses</a></li>
-			    <li><a href"#">Videos</a></li>
-			    <li><a href"#">Articles</a></li>
+			    <li class="special"><a href"#">All Content <span>19424</span></a></li>
+			    <li><a href"#">Documents <span>19424</span></a></li>
+			    <li><a href"#">Custom Documents <span>19424</span></a></li>
+			    <li><a href"#">Packages <span>19424</span></a></li>
+			    <li><a href"#">Courses <span>19424</span></a></li>
+			    <li><a href"#">Videos <span>19424</span></a></li>
+			    <li><a href"#">Articles <span>19424</span></a></li>
 		    </ul>
 			
 		</aside>
@@ -246,7 +246,9 @@ ul{
 		</header>
 		<div class="document">
 			<div class="docheader">
+			<div>
 				<h3>DOCUMENTS</h3>
+				</div>
 			</div>
 			<div class="doccontent">
 				<section class="docsection">
@@ -272,7 +274,7 @@ ul{
 					    	<div class="certified">CERTIFIED</div>
 					    	<div class="doctype">DOC</div>
 					    	<div class="docview">view:144</div>
-					    	<div class="doccategory">categories: HUMAN RESOURCES EMPLOYMENT POLICIES AND </div>
+					    	<div class="doccategory">categories: <a href="#">HUMAN RESOURCES</a> <a href="#">EMPLOYMENT POLICIES AND </a></div>
 					    	<div class="docicon">+</div>
 					    </div>				
 					</div>
@@ -286,7 +288,7 @@ ul{
 					    	<div class="certified">CERTIFIED</div>
 					    	<div class="doctype">DOC</div>
 					    	<div class="docview">view:144</div>
-					    	<div class="doccategory">categories: HUMAN RESOURCES EMPLOYMENT POLICIES AND </div>
+					    	<div class="doccategory">categories: <a href="#">HUMAN RESOURCES</a> <a href="#">EMPLOYMENT POLICIES AND </a></div>
 					    	<div class="docicon">+</div>
 					    </div>				
 					</div>
@@ -298,40 +300,37 @@ ul{
 				<h3>CUSTOM DOCUMENTS</h3>
 			</div>
 			<div class="costumecontent">
-				<section class="costumesection" style="border: 1px solid #cedae3;box-shadow: 1px 1px 2px rgba(206,218,227,.75);max-height: 243px;width: 220px;">
+				<section class="costumesection" >
 				    <header class="cossecheader">
 				    	<h4>CUSTOM DOCUMENTS</h4>
 				    </header>
                     <h3>Policy and Procedure Manual</h3>
-                    <img src="mirta.jpg" />
-                    <p></p>
+                    <img src="http://img.docstoccdn.com/thumb/206/167186444.png" style/>
                     <footer>
-                    	<a href="">read</a>
-                    	<p class="costumeview">view:32</p>
+                    	<a href="">READ</a>
+                    	<span class="costumeview">view:32</span>
                     </footer>
 				</section>
-				<section class="costumesection" style="border: 1px solid #cedae3;box-shadow: 1px 1px 2px rgba(206,218,227,.75);max-height: 243px;width: 220px;">
+				<section class="costumesection" >
 				    <header class="cossecheader">
 				    	<h4>CUSTOM DOCUMENTS</h4>
 				    </header>
                     <h3>Landscaping Contract</h3>
-                    <img src="mirta.jpg" />
-                    <p></p>
+                    <img src="http://img.docstoccdn.com/thumb/206/167132309.png" />
                     <footer>
-                    	<a href="">read</a>
-                    	<p class="costumeview">view:10</p>
+                    	<a href="">READ</a>
+                    	<span class="costumeview">view:10</span>
                     </footer>
 				</section>
-				<section class="costumesection" style="border: 1px solid #cedae3;box-shadow: 1px 1px 2px rgba(206,218,227,.75);max-height: 243px;width: 220px;">
+				<section class="costumesection" >
 				    <header class="cossecheader">
 				    	<h4>CUSTOM DOCUMENTS</h4>
 				    </header>
                     <h3>Emergency Response Plan</h3>
-                    <img src="mirta.jpg" />
-                    <p></p>
+                    <img src="http://img.docstoccdn.com/thumb/206/167113526.png" />
                     <footer>
-                    	<a href="">read</a>
-                    	<p class="costumeview">view:54</p>
+                    	<a href="">READ</a>
+                    	<span class="costumeview">view:54</span>
                     </footer>
 				</section>
 			</div>
@@ -346,11 +345,9 @@ ul{
 				    	<h4>COURSES</h4>
 				    </header>
                     <h3>Utilizing Google+ and Google Hangouts for Business</h3>
-                    <img src="mirta.jpg" />
-                    <p></p>
+                    <img src="http://i.docstoccdn.com/courses/250/0-20140123154152558.png" />
                     <footer>
-                    	<a href="">learn</a>
-                    	<p class="coursesview">view:32</p>
+                    	<a href="">LEARN</a>
                     </footer>
 				</section>
 				<section class="coursessection" >
@@ -358,23 +355,20 @@ ul{
 				    	<h4>COURSES</h4>
 				    </header>
                     <h3>The Power of Persuasion</h3>
-                    <img src="mirta.jpg" />
-                    <p></p>
+                    <img src="http://i.docstoccdn.com/courses/250/85-20140116093826148.png" />
                     <footer>
-                    	<a href="">learn</a>
-                    	<p class="coursesview">view:32</p>
+                    	<a href="">LEARN</a>
                     </footer>
 				</section>
-				<section class="coursessessection" >
-				    <header class="cossecheader">
+				<section class="coursessection" >
+				    <header class="coursessecheader">
 				    	<h4>COURSES</h4>
 				    </header>
                     <h3>Mastering Business Writing and Grammar</h3>
-                    <img src="mirta.jpg" />
-                    <p></p>
+                    <img src="http://i.docstoccdn.com/courses/250/84-20131203120810777.jpg" />
                     <footer>
-                    	<a href="">learn</a>
-                    	<p class="coursesview">view:937</p>
+                    	<a href="">LEARN</a>
+                    	<span class="coursesview">view:937</span>
                     </footer>
 				</section>
 			</div>
@@ -389,7 +383,7 @@ ul{
 				    	<h4>PACKAGES</h4>
 				    </header>
                     <h3>Business Contracts Starter Kit</h3>
-                    <img src="mirta.jpg" />
+                    <img src="http://www.docstoc.com/Content/img/package_blank.png" />
                     <footer>
                     	<a href="">learn</a>
                     </footer>
@@ -399,7 +393,7 @@ ul{
 				    	<h4>PACKAGES</h4>
 				    </header>
                     <h3>Business Planning Starter kit</h3>
-                    <img src="mirta.jpg" />
+                    <img src="http://www.docstoc.com/Content/img/package_blank.png" />
                     <footer>
                     	<a href="">learn</a>
                     </footer>
@@ -409,9 +403,9 @@ ul{
 				    	<h4>PACKAGES</h4>
 				    </header>
                     <h3>Top Marketing and Branding Tools</h3>
-                    <img src="mirta.jpg" />
+                    <img src="http://www.docstoc.com/Content/img/package_blank.png" />
                     <footer>
-                    	<a href="">learn</a>
+                    	<a href="">LEARN</a>
                     </footer>
 				</section>
 			</div>
@@ -426,8 +420,7 @@ ul{
 				    	<h4>VIDEOS</h4>
 				    </header>
                     <h3>Utilizing Google+ and Google Hangouts for Business</h3>
-                    <img src="mirta.jpg" />
-                    <p></p>
+                    <img src="yoxla.png" />
                     <footer>
                     	<a href="">watch</a>
                     	<p class="videosview">view:32</p>
@@ -438,8 +431,7 @@ ul{
 				    	<h4>VIDEOS</h4>
 				    </header>
                     <h3>Utilizing Google+ and Google Hangouts for Business</h3>
-                    <img src="mirta.jpg" />
-                    <p></p>
+                    <img src="yoxla.png" />
                     <footer>
                     	<a href="">watch</a>
                     	<p class="videosview">view:32</p>
@@ -450,8 +442,7 @@ ul{
 				    	<h4>VIDEOS</h4>
 				    </header>
                     <h3>Utilizing Google+ and Google Hangouts for Business</h3>
-                    <img src="mirta.jpg" />
-                    <p></p>
+                    <img src="yoxla.png" />
                     <footer>
                     	<a href="">watch</a>
                     	<p class="videosview">view:32</p>
@@ -469,11 +460,10 @@ ul{
 				    	<h4>ARTICLES</h4>
 				    </header>
                     <h3>Utilizing Google+ and Google Hangouts for Business</h3>
-                    <img src="mirta.jpg" />
-                    <p></p>
+                    <img src="http://content1.docstoc.com.s3.amazonaws.com/images/articles/230/6a4e07ad-de27-446d-9cc9-af75c98af46b.png" />
                     <footer>
                     	<a href="">read</a>
-                    	<p class="articlessview">view:32</p>
+                    	<p class="articlesview">view:32</p>
                     </footer>
 				</section>
 				<section class="articlessection" >
@@ -481,11 +471,10 @@ ul{
 				    	<h4>ARTICLES</h4>
 				    </header>
                     <h3>Utilizing Google+ and Google Hangouts for Business</h3>
-                    <img src="mirta.jpg" />
-                    <p></p>
+                    <img src="http://content1.docstoc.com.s3.amazonaws.com/images/articles/230/d21a02f3-47e9-4972-be12-7866829e2d18.png" />
                     <footer>
                     	<a href="">read</a>
-                    	<p class="articlessview">view:32</p>
+                    	<p class="articlesview">view:32</p>
                     </footer>
 				</section>
 				<section class="articlessection" >
@@ -493,11 +482,10 @@ ul{
 				    	<h4>ARTICLES</h4>
 				    </header>
                     <h3>Utilizing Google+ and Google Hangouts for Business</h3>
-                    <img src="mirta.jpg" />
-                    <p></p>
+                    <img src="http://content1.docstoc.com.s3.amazonaws.com/images/articles/230/e82ad68c-78b9-4cd2-8c5d-7f89b35db571.png" />
                     <footer>
                     	<a href="">read</a>
-                    	<p class="articlessview">view:32</p>
+                    	<p class="articlesview">view:32</p>
                     </footer>
 				</section>
 			</div>
@@ -507,8 +495,8 @@ ul{
 				<h3>DOCUMENTS</h3>
 			</div>
 			<div class="doccontent">
-				<section class="docsection" style="border-bottom: 1px solid #e0e9f0">
-					<img src="mirta.jpg" />
+				<section class="docsection">
+					<img src="http://img.docstoccdn.com/thumb/206/167181051.png" />
 					<div class="docright">
 					    <a href="">Policy and Procedure Manual</a>	
 					    <p>Protect your company with this Policy and Procedure Manual. A Policy and Procedure Manual is a compilation of company policies, procedures and behavioral expectations that is provided by a company to employees. The manual can also include information about payroll, employee benefits and additional terms and conditions of employment. Moreover, a Policy and Procedure Manual will help protect a company from potential lawsuits that may arise in the form of harassment claims, wrongful termination claims and discrimination claims. This customizable document can be used by any small business to easily create a comprehensive and customizable manual.</p>	
@@ -516,13 +504,13 @@ ul{
 					    	<div class="certified">CERTIFIED</div>
 					    	<div class="doctype">DOC</div>
 					    	<div class="docview">view:144</div>
-					    	<div class="doccategory">categories: HUMAN RESOURCES EMPLOYMENT POLICIES AND </div>
+					    	<div class="doccategory">categories: <a href="#">HUMAN RESOURCES</a><a href="#"> EMPLOYMENT POLICIES AND</a> </div>
 					    	<div class="docicon">+</div>
 					    </div>				
 					</div>
 				</section>
-				<section class="docsection" style="border-bottom: 1px solid #e0e9f0">
-					<img src="mirta.jpg" />
+				<section class="docsection">
+					<img src="http://img.docstoccdn.com/thumb/206/167181000.png" />
 					<div class="docright">
 					    <a href="">Work Absence Policy</a>	
 					    <p>This Work Absence Policy outlines a company’s guidelines on unexcused employee absences and excessive tardiness. It is vital to provide employees with such policy to ensure that there is a clear understanding between the parties as to what is expected from the employee. Customize the information of the company, the amount of time employees can be late, the number of consecutive unexcused absences that will result in termination, and more. This policy can be used by small businesses or other entities that want to provide users with a clear Work Absence Policy.</p>	
@@ -530,13 +518,13 @@ ul{
 					    	<div class="certified">CERTIFIED</div>
 					    	<div class="doctype">DOC</div>
 					    	<div class="docview">view:144</div>
-					    	<div class="doccategory">categories: HUMAN RESOURCES EMPLOYMENT POLICIES AND </div>
+					    	<div class="doccategory">categories: <a href="#">HUMAN RESOURCES</a><a href="#"> EMPLOYMENT POLICIES AND</a> </div>
 					    	<div class="docicon">+</div>
 					    </div>				
 					</div>
 				</section>
-				<section class="docsection" style="border-bottom: 1px solid #e0e9f0; color: #222">
-					<img src="mirta.jpg" />
+				<section class="docsection">
+					<img src="http://img.docstoccdn.com/thumb/206/167180950.png" />
 					<div class="docright">
 					    <a href="">Texting Policy</a>	
 					    <p>This Texting Policy can be used by a company to establish a uniform and consistent policy regarding texting on cell phones by employees. This policy prohibits employees’ texting and using their cell phone during work hours. In addition, this policy prohibits employees from texting and driving on a company provided phone or to conduct company business. This policy can be used by small businesses or other entities that want to maximize employee productivity and safety by establishing a Texting Policy.</p>	
@@ -544,13 +532,13 @@ ul{
 					    	<div class="certified">CERTIFIED</div>
 					    	<div class="doctype">DOC</div>
 					    	<div class="docview">view:144</div>
-					    	<div class="doccategory">categories: HUMAN RESOURCES EMPLOYMENT POLICIES AND </div>
+					    	<div class="doccategory">categories: <a href="#">HUMAN RESOURCES</a><a href="#"> EMPLOYMENT POLICIES AND </a></div>
 					    	<div class="docicon">+</div>
 					    </div>				
 					</div>
 				</section>
-				<section class="docsection" style="border-bottom: 1px solid #e0e9f0">
-					<img src="mirta.jpg" />
+				<section class="docsection">
+					<img src="http://img.docstoccdn.com/thumb/206/167180861.png" />
 					<div class="docright">
 					    <a href="">Policy and Procedure Manual</a>	
 					    <p>Protect your company with this Policy and Procedure Manual. A Policy and Procedure Manual is a compilation of company policies, procedures and behavioral expectations that is provided by a company to employees. The manual can also include information about payroll, employee benefits and additional terms and conditions of employment. Moreover, a Policy and Procedure Manual will help protect a company from potential lawsuits that may arise in the form of harassment claims, wrongful termination claims and discrimination claims. This customizable document can be used by any small business to easily create a comprehensive and customizable manual.</p>	
@@ -558,13 +546,13 @@ ul{
 					    	<div class="certified">CERTIFIED</div>
 					    	<div class="doctype">DOC</div>
 					    	<div class="docview">view:144</div>
-					    	<div class="doccategory">categories: HUMAN RESOURCES EMPLOYMENT POLICIES AND </div>
+					    	<div class="doccategory">categories: <a href="#">HUMAN RESOURCES</a><a href="#"> EMPLOYMENT POLICIES AND</a> </div>
 					    	<div class="docicon">+</div>
 					    </div>				
 					</div>
 				</section>
-				<section class="docsection" style="border-bottom: 1px solid #e0e9f0">
-					<img src="mirta.jpg" />
+				<section class="docsection">
+					<img src="http://img.docstoccdn.com/thumb/206/167180818.png" />
 					<div class="docright">
 					    <a href="">Work Absence Policy</a>	
 					    <p>This Work Absence Policy outlines a company’s guidelines on unexcused employee absences and excessive tardiness. It is vital to provide employees with such policy to ensure that there is a clear understanding between the parties as to what is expected from the employee. Customize the information of the company, the amount of time employees can be late, the number of consecutive unexcused absences that will result in termination, and more. This policy can be used by small businesses or other entities that want to provide users with a clear Work Absence Policy.</p>	
@@ -572,13 +560,13 @@ ul{
 					    	<div class="certified">CERTIFIED</div>
 					    	<div class="doctype">DOC</div>
 					    	<div class="docview">view:144</div>
-					    	<div class="doccategory">categories: HUMAN RESOURCES EMPLOYMENT POLICIES AND </div>
+					    	<div class="doccategory">categories: <a href="#">HUMAN RESOURCES</a><a href="#"> EMPLOYMENT POLICIES AND</a> </div>
 					    	<div class="docicon">+</div>
 					    </div>				
 					</div>
 				</section>
-				<section class="docsection" style="border-bottom: 1px solid #e0e9f0; color: #222">
-					<img src="mirta.jpg" />
+				<section class="docsection">
+					<img src="http://img.docstoccdn.com/thumb/206/167180692.png" />
 					<div class="docright">
 					    <a href="">Texting Policy</a>	
 					    <p>This Texting Policy can be used by a company to establish a uniform and consistent policy regarding texting on cell phones by employees. This policy prohibits employees’ texting and using their cell phone during work hours. In addition, this policy prohibits employees from texting and driving on a company provided phone or to conduct company business. This policy can be used by small businesses or other entities that want to maximize employee productivity and safety by establishing a Texting Policy.</p>	
@@ -586,13 +574,13 @@ ul{
 					    	<div class="certified">CERTIFIED</div>
 					    	<div class="doctype">DOC</div>
 					    	<div class="docview">view:144</div>
-					    	<div class="doccategory">categories: HUMAN RESOURCES EMPLOYMENT POLICIES AND </div>
+					    	<div class="doccategory">categories: <a href="#">HUMAN RESOURCES</a><a href="#"> EMPLOYMENT POLICIES AND</a> </div>
 					    	<div class="docicon">+</div>
 					    </div>				
 					</div>
 				</section>
-				<section class="docsection" style="border-bottom: 1px solid #e0e9f0">
-					<img src="mirta.jpg" />
+				<section class="docsection">
+					<img src="http://img.docstoccdn.com/thumb/206/167180692.png" />
 					<div class="docright">
 					    <a href="">Policy and Procedure Manual</a>	
 					    <p>Protect your company with this Policy and Procedure Manual. A Policy and Procedure Manual is a compilation of company policies, procedures and behavioral expectations that is provided by a company to employees. The manual can also include information about payroll, employee benefits and additional terms and conditions of employment. Moreover, a Policy and Procedure Manual will help protect a company from potential lawsuits that may arise in the form of harassment claims, wrongful termination claims and discrimination claims. This customizable document can be used by any small business to easily create a comprehensive and customizable manual.</p>	
@@ -600,13 +588,13 @@ ul{
 					    	<div class="certified">CERTIFIED</div>
 					    	<div class="doctype">DOC</div>
 					    	<div class="docview">view:144</div>
-					    	<div class="doccategory">categories: HUMAN RESOURCES EMPLOYMENT POLICIES AND </div>
+					    	<div class="doccategory">categories: <a href="#">HUMAN RESOURCES</a><a href="#"> EMPLOYMENT POLICIES AND</a> </div>
 					    	<div class="docicon">+</div>
 					    </div>				
 					</div>
 				</section>
-				<section class="docsection" style="border-bottom: 1px solid #e0e9f0">
-					<img src="mirta.jpg" />
+				<section class="docsection">
+					<img src="http://img.docstoccdn.com/thumb/206/167180692.png" />
 					<div class="docright">
 					    <a href="">Work Absence Policy</a>	
 					    <p>This Work Absence Policy outlines a company’s guidelines on unexcused employee absences and excessive tardiness. It is vital to provide employees with such policy to ensure that there is a clear understanding between the parties as to what is expected from the employee. Customize the information of the company, the amount of time employees can be late, the number of consecutive unexcused absences that will result in termination, and more. This policy can be used by small businesses or other entities that want to provide users with a clear Work Absence Policy.</p>	
@@ -614,21 +602,21 @@ ul{
 					    	<div class="certified">CERTIFIED</div>
 					    	<div class="doctype">DOC</div>
 					    	<div class="docview">view:144</div>
-					    	<div class="doccategory">categories: HUMAN RESOURCES EMPLOYMENT POLICIES AND </div>
+					    	<div class="doccategory">categories: <a href="#">HUMAN RESOURCES</a><a href="#"> EMPLOYMENT POLICIES AND</a> </div>
 					    	<div class="docicon">+</div>
 					    </div>				
 					</div>
 				</section>
-				<section class="docsection" style="border-bottom: 1px solid #e0e9f0; color: #222">
-					<img src="" />
+				<section class="docsection">
+					<img src="http://img.docstoccdn.com/thumb/206/167132309.png" />
 					<div class="docright">
-					    <a href="mirta.jpg">Texting Policy</a>	
+					    <a href="#">Texting Policy</a>	
 					    <p>This Texting Policy can be used by a company to establish a uniform and consistent policy regarding texting on cell phones by employees. This policy prohibits employees’ texting and using their cell phone during work hours. In addition, this policy prohibits employees from texting and driving on a company provided phone or to conduct company business. This policy can be used by small businesses or other entities that want to maximize employee productivity and safety by establishing a Texting Policy.</p>	
 					    <div class="baza">
 					    	<div class="certified">CERTIFIED</div>
 					    	<div class="doctype">DOC</div>
 					    	<div class="docview">view:144</div>
-					    	<div class="doccategory">categories: HUMAN RESOURCES EMPLOYMENT POLICIES AND </div>
+					    	<div class="doccategory">categories: <a href="#">HUMAN RESOURCES </a><a href="#"> EMPLOYMENT POLICIES AND</a> </div>
 					    	<div class="docicon">+</div>
 					    </div>				
 					</div>
@@ -644,16 +632,16 @@ ul{
 	</article>
 	<article class="aboutdoc">
 		<h2>Using Docstoc</h2>
-		<p>Search or Browse for any specific document or resource you need for your business. Or explore our curated resources for Starting a Business, Growing a Business or for Professional Development.</p>
+		<p>Search or <a href="#">Browse</a> for any specific document or resource you need for your business. Or explore our curated resources for <a href="#">Starting a Business</a>, <a href="#">Growing a Business</a> or for <a href="#">Professional Development.</a></p>
 	</article>
-	<article class="aboutdoc">
+	<article class="aboutdoc1">
 		<h2>Need Help?</h2>
-		<p>Feel free to Contact Us with any questions you might have.</p>
+		<p>Feel free to <a href="#">Contact Us</a> with any questions you might have.</p>
 		<ul>
-			<li><img src=""></li>
-			<li><img src=""></li>
-			<li><img src=""></li>
-			<li><img src=""></li>
+			<li><img src="http://img2.wikia.nocookie.net/__cb20130501121248/logopedia/images/thumb/f/fb/Facebook_icon_2013.svg/480px-Facebook_icon_2013.svg.png"></li>
+			<li><img src="http://static.iconarchive.com/static/images/social/twitter-icon.png"></li>
+			<li><img src="http://static.iconarchive.com/static/images/social/google-plus-icon.png"></li>
+			<li><img src="http://icons.iconarchive.com/icons/wwalczyszyn/android-style-honeycomb/32/YouTube-icon.png"></li>
 		</ul>
 	</article>
 </div>
