@@ -9,7 +9,7 @@
   <meta name="author" content="SitePoint">
   <script src="js/scripts.js"></script>
   <link rel="stylesheet" href="css/styles.css?v=1.0">
-  <link rel="stylesheet" href="shotrell.css" type="text/css">
+  <link rel="stylesheet" href="../css/docs_all.css" type="text/css">
 
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -79,7 +79,7 @@ ul{
 <header class="header1">
 	<div class="header">
 	    <div class="logo">
-		    <img src="logo.svg" alt="" />
+		    <img src="http://i.docstoccdn.com/i/quicken_v1_docstoc_logo.svg" alt="" />
 		</div>
 		<input class="search-input-box" maxlength="150" id="appendedPrependedInputSearch" type="search" placeholder="Search documents and resources" autocomplete="off" data-provide="typeahead" data-items="4" data-source="" />
 		<div class="grid_12">
