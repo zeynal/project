@@ -1,4 +1,63 @@
 @import url(http://weloveiconfonts.com/api/?family=entypo);
+body{
+	font-family: 'Lato',sans-serif;
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+}
+.header1{
+	position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1003;
+    background-color: #fff;
+    clear: both;
+    background-color: rgba(255,255,255,.97);
+    border-bottom: 1px solid #cedae3;
+    box-shadow: 2px 2px rgba(0,0,0,.02);
+    overflow: hidden;
+    height: 103px;
+}
+.header{
+	width: 70%;
+	margin: auto;
+}
+ul{
+	list-style: none;
+}
+.menu ul{
+	display: none;
+}
+.menu li{
+	margin-left: 15px;
+}
+.drapdown ol{
+	position: relative;
+	left: -15px;
+}
+
+.logo{
+	position: relative;
+	width: 200px;
+	height: 125px;
+	margin: 0px;
+	padding: 0px;
+}
+.logo img{
+	position: relative;
+	top: -45px;
+	left: -35px;
+	margin: 0px;
+	width: 200px;
+	height: 150px;
+}
+.right{
+	float: left;
+}
+.about{
+	float: left;
+}
+/*bura style css-e aiddir*/
 .render{
 	background-color: #f0f5f9;
 	position: relative;
@@ -219,6 +278,7 @@
 	width: 100%;
 	clear: both;
 	overflow: hidden;
+	padding-bottom: 15px;
 	border-bottom: 1px solid #e0e9f0;
 }
 .docsection:hover{
@@ -257,6 +317,7 @@
 .docright p{
 	font-family: 'Lato',sans-serif;
 	margin: 0px;
+	margin-top: 5px;
 	padding-right: 15px;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 12px;
@@ -273,6 +334,60 @@
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
 }
+.baza{
+	margin-top: 15px;
+}
+.baza div{
+	float: left;
+	margin-right: 10px;
+}
+.certified{
+	border: 1px solid #f08231;
+    background-color: #f08231;
+    padding: 2px;
+	color: rgb(255,255,255);
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.doctype{
+	position: relative;
+	color: #6c7780;
+    font-weight: bold;
+    padding: 2px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.doctype img{
+	top: -17px;
+	left: -5px;
+	width: 20px;
+	height: auto;
+	position: relative;
+
+}
+.docview{
+	color: #6c7780;
+    padding: 2px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.doccategory{
+	color: #6c7780;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.docicon{
+	background-color: #98aab8;
+	padding: 0px;
+	height: 12px;
+	padding-bottom: 5px;
+	border-radius: 8px;
+	font-weight: bold;
+	color: white;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+/*nfvfnv*/
 .costumedocument{
 	clear: both;
 	width: 100%;
@@ -845,14 +960,16 @@ width: 60%;
 	margin-left: 15%;
     margin-right: 15%;
 	overflow: hidden;
+	padding: 0px;
 }
 .aboutdoc{
 	float: left;
     position: relative;
-    width: 33%;
-    margin-left: 10px;
+    width: 35.5%;
+    margin: 0px;
     margin-right: 10px;
 }
+
 .aboutdoc h2{
 	line-height: 26px;
     color: #39434c;
@@ -873,7 +990,7 @@ width: 60%;
 .aboutdoc1{
 	float: left;
     position: relative;
-    width: 27.5%;
+    width: 23%;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -901,12 +1018,94 @@ width: 60%;
 }
 .aboutdoc1 li{
 	float: left;
-	width: 30px;
-    height: 30px;
+	width: 20px;
+    height: 20px;
     margin-left: 5px;
 }
 .aboutdoc1 li img{
 	width: 100%;
 	height: 100%;
 }
+.docstocfooter{
+	background-color: #667c86;
+    border-top: solid 5px #53666e;
+    color: #fff;
+    padding: 20px 0 20px 0;
+    clear: both;
+    overflow: hidden;
+    padding-bottom: 0px;
+}
+.footercontent{
+	margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+.grid-4{
+	width: 32%;
+}
+.grid-2{
+	width: 15%;
+}
+.grid-4,.grid-2{
+	float: left;
+	margin-left: 10px;
+}
+.grid-4 ul{
+	width: 46%;
+}
+.grid-4 ul,.grid-2 ul{
+	float: left;
+	padding: 0px;
+	margin-left: 10px;
+}
+.grid-2 ul{
+	width: 100%;
+}
+.grid-4 h4,.grid-2 h4{
+	font-size: 14px;
+	margin-left: 10px;
+}
+.grid-4 ul li,.grid-2 ul li{
+    font-size: 12px;
+    line-height: 12px;
+    padding: 5px 10px;
+    margin: 0 -10px;
+}
+.grid-4 ul li a,.grid-2 ul li a{
+	color: #a4b5bd;
+	text-decoration: none;
+}
+.grid-4 ul li:hover,.grid-2 ul li:hover{
+background-color:#738a94;
+}
+.grid-4 ul li:hover a,.grid-2 ul li:hover a{
+	color:#fff;
+}
+.bottom-footer {
+	clear: both;
+    background-color: #53666e;
+    color: #cfdadf;
+    padding: 10px 0;
+}
+.content-bottom-footer{
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+    font-size: 12px;
 
+}
+.content-bottom-footer a{
+	margin-left: 7px;
+	color: #cfdadf; 
+}
+.content-bottom-footer a:hover{
+	text-decoration: none;
+}
+.grid-8{
+	width: 64%;
+	float: left;
+}
+.grid-5{
+	width: 32%;
+	float: right;
+}
