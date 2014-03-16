@@ -2,84 +2,25 @@
 
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8" >
 
   <title>The HTML5 Herald</title>
-  <meta name="description" content="The HTML5 Herald">
+  <meta name="description" content="The HTML5 Herald"> 
   <meta name="author" content="SitePoint">
   <script src="js/scripts.js"></script>
   <link rel="stylesheet" href="css/styles.css?v=1.0">
-  <link rel="stylesheet" href="../css/docs_all.css" type="text/css">
+  <link rel="stylesheet" href="shotrell.css" type="text/css">
 
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 </head>
-<style type="text/css">
-body{
-	font-family: 'Lato',sans-serif;
-	position: relative;
-	margin: 0px;
-	padding: 0px;
-}
-.header1{
-	position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1003;
-    background-color: #fff;
-    clear: both;
-    background-color: rgba(255,255,255,.97);
-    border-bottom: 1px solid #cedae3;
-    box-shadow: 2px 2px rgba(0,0,0,.02);
-    overflow: hidden;
-    height: 103px;
-}
-.header{
-	width: 70%;
-	margin: auto;
-}
-ul{
-	list-style: none;
-}
-.menu ul{
-	display: none;
-}
-.menu li{
-	margin-left: 15px;
-}
-.drapdown ol{
-	position: relative;
-	left: -15px;
-}
 
-.logo{
-	position: relative;
-	width: 200px;
-	height: 125px;
-	margin: 0px;
-	padding: 0px;
-}
-.logo img{
-	position: relative;
-	top: -45px;
-	left: -35px;
-	margin: 0px;
-	width: 200px;
-	height: 150px;
-}
-.right{
-	float: left;
-}
-.about{
-	float: left;
-}
-</style>
 <body>
 <header class="header1">
 	<div class="header">
 	    <div class="logo">
-		    <img src="http://i.docstoccdn.com/i/quicken_v1_docstoc_logo.svg" alt="" />
+		    <img src="logo.svg" alt="ffff" />
 		</div>
 		<input class="search-input-box" maxlength="150" id="appendedPrependedInputSearch" type="search" placeholder="Search documents and resources" autocomplete="off" data-provide="typeahead" data-items="4" data-source="" />
 		<div class="grid_12">
@@ -89,18 +30,18 @@ ul{
                 </span>
                 
 		            <span class="signin-join">
-			            <a  href=""><span class="content-join">JOIN</span></a>
-			            <a id="" href=""><span class="content-signin">SIGN IN</span></a>
+			            <a  href="#"><span class="content-join">JOIN</span></a>
+			            <a  href="#"><span class="content-signin">SIGN IN</span></a>
 		            </span>
             </div>
 		<nav>
 			<ul class="menu">
-				<li> <div class="drap">DOCUMENTS & VIDEOS</div>
+				<li>DOCUMENTS & VIDEOS
 					<ul class="drapdown">
 						<ol>STARTING A BUSINESS</ol>
 						<ol>GROWING A BUSINESS</ol>
 						<ol>PROFESSIONAL DEVELOPMENT</ol>
-						<ol class="down"> <div class="drap1">USER CONTRIBUTED</div>
+						<ol>USER CONTRIBUTED
 							<nav class="right1"><ul>
 								<li>Most Recent Documents</li>
 								<li>All Documents</li>
@@ -258,7 +199,7 @@ ul{
 					    <p>Protect your company with this Policy and Procedure Manual. A Policy and Procedure Manual is a compilation of company policies, procedures and behavioral expectations that is provided by a company to employees. The manual can also include information about payroll, employee benefits and additional terms and conditions of employment. Moreover, a Policy and Procedure Manual will help protect a company from potential lawsuits that may arise in the form of harassment claims, wrongful termination claims and discrimination claims. This customizable document can be used by any small business to easily create a comprehensive and customizable manual.</p>	
 					    <div class="baza">
 					    	<div class="certified">CERTIFIED</div>
-					    	<div class="doctype">DOC</div>
+					    	<div class="doctype"><img src="http://png-5.findicons.com/files/icons/2360/spirit20/20/file_doc.png">DOC</div>
 					    	<div class="docview">view:144</div>
 					    	<div class="doccategory">categories: <a href="#">HUMAN RESOURCES</a> <a href="#">EMPLOYMENT POLICIES AND </a></div>
 					    	<div class="docicon">+</div>
@@ -272,7 +213,7 @@ ul{
 					    <p>This Work Absence Policy outlines a company’s guidelines on unexcused employee absences and excessive tardiness. It is vital to provide employees with such policy to ensure that there is a clear understanding between the parties as to what is expected from the employee. Customize the information of the company, the amount of time employees can be late, the number of consecutive unexcused absences that will result in termination, and more. This policy can be used by small businesses or other entities that want to provide users with a clear Work Absence Policy.</p>	
 					    <div class="baza">
 					    	<div class="certified">CERTIFIED</div>
-					    	<div class="doctype">DOC</div>
+					    	<div class="doctype"><img src="http://png-5.findicons.com/files/icons/2360/spirit20/20/file_doc.png">DOC</div>
 					    	<div class="docview">view:144</div>
 					    	<div class="doccategory">categories: <a href="#">HUMAN RESOURCES</a> <a href="#">EMPLOYMENT POLICIES AND </a></div>
 					    	<div class="docicon">+</div>
@@ -286,7 +227,7 @@ ul{
 					    <p>This Texting Policy can be used by a company to establish a uniform and consistent policy regarding texting on cell phones by employees. This policy prohibits employees’ texting and using their cell phone during work hours. In addition, this policy prohibits employees from texting and driving on a company provided phone or to conduct company business. This policy can be used by small businesses or other entities that want to maximize employee productivity and safety by establishing a Texting Policy.</p>	
 					    <div class="baza">
 					    	<div class="certified">CERTIFIED</div>
-					    	<div class="doctype">DOC</div>
+					    	<div class="doctype"><img src="http://png-5.findicons.com/files/icons/2360/spirit20/20/file_doc.png">DOC</div>
 					    	<div class="docview">view:144</div>
 					    	<div class="doccategory">categories: <a href="#">HUMAN RESOURCES</a> <a href="#">EMPLOYMENT POLICIES AND </a></div>
 					    	<div class="docicon">+</div>
@@ -420,7 +361,7 @@ ul{
 				    	<h4>VIDEOS</h4>
 				    </header>
                     <h3>Utilizing Google+ and Google Hangouts for Business</h3>
-                    <img src="yoxla.png" />
+                    <img src="http://content1.docstoc.com.s3.amazonaws.com/images/articles/230/73a3f425-c22b-47e2-8fac-ab97ed29c8de.png" />
                     <footer>
                     	<a href="">watch</a>
                     	<p class="videosview">view:32</p>
@@ -431,7 +372,7 @@ ul{
 				    	<h4>VIDEOS</h4>
 				    </header>
                     <h3>Utilizing Google+ and Google Hangouts for Business</h3>
-                    <img src="yoxla.png" />
+                    <img src="http://content1.docstoc.com.s3.amazonaws.com/images/articles/230/005bb8d1-ec6a-434d-8a6d-68aa5dec02f6.png" />
                     <footer>
                     	<a href="">watch</a>
                     	<p class="videosview">view:32</p>
@@ -442,7 +383,7 @@ ul{
 				    	<h4>VIDEOS</h4>
 				    </header>
                     <h3>Utilizing Google+ and Google Hangouts for Business</h3>
-                    <img src="yoxla.png" />
+                    <img src="http://content1.docstoc.com.s3.amazonaws.com/images/articles/230/6c4c9cf1-1a65-4aa9-b4b4-469456f03449.png" />
                     <footer>
                     	<a href="">watch</a>
                     	<p class="videosview">view:32</p>
@@ -502,7 +443,7 @@ ul{
 					    <p>Protect your company with this Policy and Procedure Manual. A Policy and Procedure Manual is a compilation of company policies, procedures and behavioral expectations that is provided by a company to employees. The manual can also include information about payroll, employee benefits and additional terms and conditions of employment. Moreover, a Policy and Procedure Manual will help protect a company from potential lawsuits that may arise in the form of harassment claims, wrongful termination claims and discrimination claims. This customizable document can be used by any small business to easily create a comprehensive and customizable manual.</p>	
 					    <div class="baza">
 					    	<div class="certified">CERTIFIED</div>
-					    	<div class="doctype">DOC</div>
+					    	<div class="doctype"><img src="http://png-5.findicons.com/files/icons/2360/spirit20/20/file_doc.png">DOC</div>
 					    	<div class="docview">view:144</div>
 					    	<div class="doccategory">categories: <a href="#">HUMAN RESOURCES</a><a href="#"> EMPLOYMENT POLICIES AND</a> </div>
 					    	<div class="docicon">+</div>
@@ -516,7 +457,7 @@ ul{
 					    <p>This Work Absence Policy outlines a company’s guidelines on unexcused employee absences and excessive tardiness. It is vital to provide employees with such policy to ensure that there is a clear understanding between the parties as to what is expected from the employee. Customize the information of the company, the amount of time employees can be late, the number of consecutive unexcused absences that will result in termination, and more. This policy can be used by small businesses or other entities that want to provide users with a clear Work Absence Policy.</p>	
 					    <div class="baza">
 					    	<div class="certified">CERTIFIED</div>
-					    	<div class="doctype">DOC</div>
+					    	<div class="doctype"><img src="http://png-5.findicons.com/files/icons/2360/spirit20/20/file_doc.png">DOC</div>
 					    	<div class="docview">view:144</div>
 					    	<div class="doccategory">categories: <a href="#">HUMAN RESOURCES</a><a href="#"> EMPLOYMENT POLICIES AND</a> </div>
 					    	<div class="docicon">+</div>
@@ -530,7 +471,7 @@ ul{
 					    <p>This Texting Policy can be used by a company to establish a uniform and consistent policy regarding texting on cell phones by employees. This policy prohibits employees’ texting and using their cell phone during work hours. In addition, this policy prohibits employees from texting and driving on a company provided phone or to conduct company business. This policy can be used by small businesses or other entities that want to maximize employee productivity and safety by establishing a Texting Policy.</p>	
 					    <div class="baza">
 					    	<div class="certified">CERTIFIED</div>
-					    	<div class="doctype">DOC</div>
+					    	<div class="doctype"><img src="http://png-5.findicons.com/files/icons/2360/spirit20/20/file_doc.png">DOC</div>
 					    	<div class="docview">view:144</div>
 					    	<div class="doccategory">categories: <a href="#">HUMAN RESOURCES</a><a href="#"> EMPLOYMENT POLICIES AND </a></div>
 					    	<div class="docicon">+</div>
@@ -544,7 +485,7 @@ ul{
 					    <p>Protect your company with this Policy and Procedure Manual. A Policy and Procedure Manual is a compilation of company policies, procedures and behavioral expectations that is provided by a company to employees. The manual can also include information about payroll, employee benefits and additional terms and conditions of employment. Moreover, a Policy and Procedure Manual will help protect a company from potential lawsuits that may arise in the form of harassment claims, wrongful termination claims and discrimination claims. This customizable document can be used by any small business to easily create a comprehensive and customizable manual.</p>	
 					    <div class="baza">
 					    	<div class="certified">CERTIFIED</div>
-					    	<div class="doctype">DOC</div>
+					    	<div class="doctype"><img src="http://png-5.findicons.com/files/icons/2360/spirit20/20/file_doc.png">DOC</div>
 					    	<div class="docview">view:144</div>
 					    	<div class="doccategory">categories: <a href="#">HUMAN RESOURCES</a><a href="#"> EMPLOYMENT POLICIES AND</a> </div>
 					    	<div class="docicon">+</div>
@@ -558,7 +499,7 @@ ul{
 					    <p>This Work Absence Policy outlines a company’s guidelines on unexcused employee absences and excessive tardiness. It is vital to provide employees with such policy to ensure that there is a clear understanding between the parties as to what is expected from the employee. Customize the information of the company, the amount of time employees can be late, the number of consecutive unexcused absences that will result in termination, and more. This policy can be used by small businesses or other entities that want to provide users with a clear Work Absence Policy.</p>	
 					    <div class="baza">
 					    	<div class="certified">CERTIFIED</div>
-					    	<div class="doctype">DOC</div>
+					    	<div class="doctype"><img src="http://png-5.findicons.com/files/icons/2360/spirit20/20/file_doc.png">DOC</div>
 					    	<div class="docview">view:144</div>
 					    	<div class="doccategory">categories: <a href="#">HUMAN RESOURCES</a><a href="#"> EMPLOYMENT POLICIES AND</a> </div>
 					    	<div class="docicon">+</div>
@@ -572,7 +513,7 @@ ul{
 					    <p>This Texting Policy can be used by a company to establish a uniform and consistent policy regarding texting on cell phones by employees. This policy prohibits employees’ texting and using their cell phone during work hours. In addition, this policy prohibits employees from texting and driving on a company provided phone or to conduct company business. This policy can be used by small businesses or other entities that want to maximize employee productivity and safety by establishing a Texting Policy.</p>	
 					    <div class="baza">
 					    	<div class="certified">CERTIFIED</div>
-					    	<div class="doctype">DOC</div>
+					    	<div class="doctype"><img src="http://png-5.findicons.com/files/icons/2360/spirit20/20/file_doc.png">DOC</div>
 					    	<div class="docview">view:144</div>
 					    	<div class="doccategory">categories: <a href="#">HUMAN RESOURCES</a><a href="#"> EMPLOYMENT POLICIES AND</a> </div>
 					    	<div class="docicon">+</div>
@@ -586,7 +527,7 @@ ul{
 					    <p>Protect your company with this Policy and Procedure Manual. A Policy and Procedure Manual is a compilation of company policies, procedures and behavioral expectations that is provided by a company to employees. The manual can also include information about payroll, employee benefits and additional terms and conditions of employment. Moreover, a Policy and Procedure Manual will help protect a company from potential lawsuits that may arise in the form of harassment claims, wrongful termination claims and discrimination claims. This customizable document can be used by any small business to easily create a comprehensive and customizable manual.</p>	
 					    <div class="baza">
 					    	<div class="certified">CERTIFIED</div>
-					    	<div class="doctype">DOC</div>
+					    	<div class="doctype"><img src="http://png-5.findicons.com/files/icons/2360/spirit20/20/file_doc.png">DOC</div>
 					    	<div class="docview">view:144</div>
 					    	<div class="doccategory">categories: <a href="#">HUMAN RESOURCES</a><a href="#"> EMPLOYMENT POLICIES AND</a> </div>
 					    	<div class="docicon">+</div>
@@ -600,7 +541,7 @@ ul{
 					    <p>This Work Absence Policy outlines a company’s guidelines on unexcused employee absences and excessive tardiness. It is vital to provide employees with such policy to ensure that there is a clear understanding between the parties as to what is expected from the employee. Customize the information of the company, the amount of time employees can be late, the number of consecutive unexcused absences that will result in termination, and more. This policy can be used by small businesses or other entities that want to provide users with a clear Work Absence Policy.</p>	
 					    <div class="baza">
 					    	<div class="certified">CERTIFIED</div>
-					    	<div class="doctype">DOC</div>
+					    	<div class="doctype"><img src="http://png-5.findicons.com/files/icons/2360/spirit20/20/file_doc.png">DOC</div>
 					    	<div class="docview">view:144</div>
 					    	<div class="doccategory">categories: <a href="#">HUMAN RESOURCES</a><a href="#"> EMPLOYMENT POLICIES AND</a> </div>
 					    	<div class="docicon">+</div>
@@ -614,7 +555,7 @@ ul{
 					    <p>This Texting Policy can be used by a company to establish a uniform and consistent policy regarding texting on cell phones by employees. This policy prohibits employees’ texting and using their cell phone during work hours. In addition, this policy prohibits employees from texting and driving on a company provided phone or to conduct company business. This policy can be used by small businesses or other entities that want to maximize employee productivity and safety by establishing a Texting Policy.</p>	
 					    <div class="baza">
 					    	<div class="certified">CERTIFIED</div>
-					    	<div class="doctype">DOC</div>
+					    	<div class="doctype"><img src="http://png-5.findicons.com/files/icons/2360/spirit20/20/file_doc.png">DOC</div>
 					    	<div class="docview">view:144</div>
 					    	<div class="doccategory">categories: <a href="#">HUMAN RESOURCES </a><a href="#"> EMPLOYMENT POLICIES AND</a> </div>
 					    	<div class="docicon">+</div>
@@ -645,6 +586,91 @@ ul{
 		</ul>
 	</article>
 </div>
-  
+<footer class="docstocfooter">
+	<div class="footercontent"> 
+        <div class="grid-4">
+        	<h4>Document and Resource Categories</h4>
+        	    <ul>
+                    <li><a href="#">All Docs</a></li>
+                    <li><a href="#">DocStore</a></li>
+                    <li><a href="#">Legal</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">Personal Finanace</a></li>
+                    <li><a href="#">Technology</a></li>
+                    <li><a href="#">Education</a></li>
+                    <li><a href="#">Jobs &amp; Careers</a></li>
+                    <li><a href="#">Tax</a></li>
+                </ul>
+        	<ul>
+                <li><a href="#">Current Events</a></li>
+                <li><a href="#">Politics &amp; History</a></li>
+                <li><a href="#">Guides</a></li>
+                <li><a href="#">Science</a></li>
+                <li><a href="#">Entertainment</a></li>
+                <li><a href="#">Health &amp; Fitness</a></li>
+                <li><a href="#">Medicine</a></li>
+                <li><a href="#">Real Estate</a></li>
+            </ul>
+	</div>
+	<div class="grid-2">
+        <h4>About Us</h4>
+        <ul>
+            <li><a href="#">What is Docstoc?</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Join Our Team</a></li>
+            <li><a href="#">RSS Feeds</a></li>
+        </ul>
+    </div>
+    <div class="grid-2">
+        <h4>Products</h4>
+        <ul>
+            <li><a href="#">Docstoc Premium</a></li>
+            <li><a href="#">License123</a></li>
+            <li><a href="#">Custom Docs</a></li>
+            <li><a href="#">Mobile Apps</a></li>
+            <li><a href="#">Docstoc iPad</a></li>
+            <li><a href="#">DocStore</a></li>
+            <li><a href="#">Mobile Mode</a></li>
+        </ul>
+    </div>
+    <div class="grid-2">
+        <h4>Upload and Share</h4>
+        <ul>
+            <li><a href="#">What is Docstoc?</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Join Our Team</a></li>
+            <li><a href="#">RSS Feeds</a></li>
+        </ul>
+    </div>
+    <div class="grid-2"> 
+        <h4>Legal</h4>
+    	<ul>
+            <li><a href="#">Docstoc Terms of Service</a></li>
+            <li><a href="#">DocStore Terms of Service</a></li>
+            <li><a href="#">Copyright</a></li>
+            <li><a href="#">DMCA Guidelines</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
+    </div>
+    </div>
+    <div class="bottom-footer">
+        <div class="content-bottom-footer">
+        	<span class="grid-8">
+                © Docstoc® 2013. All rights reserved.   |   *Disclaimer: Legal information is not legal advice.    
+                <a href="#">Read More</a> 
+            </span>
+            <span class="grid-5">
+                <a href="#">Browse</a> 
+                
+                <a href="#">Upgrade to Premium</a> 
+                <a href="#">Contact Us</a> 
+            </span>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
