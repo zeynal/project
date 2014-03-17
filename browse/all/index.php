@@ -9,7 +9,7 @@
   <meta name="author" content="SitePoint">
   <script src="js/scripts.js"></script>
   <link rel="stylesheet" href="css/styles.css?v=1.0">
-  <link rel="stylesheet" href="shotrell.css" type="text/css">
+  <link rel="stylesheet" href="../css/docs_all.css" type="text/css">
 
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
