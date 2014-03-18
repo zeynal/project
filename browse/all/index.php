@@ -20,7 +20,7 @@
 <header class="header1">
 	<div class="header">
 	    <div class="logo">
-		    <img src="logo.svg" alt="ffff" />
+		    <img src="http://i.docstoccdn.com/i/quicken_v1_docstoc_logo.svg" alt="ffff" />
 		</div>
 		<input class="search-input-box" maxlength="150" id="appendedPrependedInputSearch" type="search" placeholder="Search documents and resources" autocomplete="off" data-provide="typeahead" data-items="4" data-source="" />
 		<div class="grid_12">
